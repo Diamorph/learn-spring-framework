@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Arrays;
 
 @Configuration
-@ComponentScan("com.diamorph.learnspringframework.examples.a0")
+@ComponentScan
 public class DepInjectionLauncherApplication {
 
     public static void main(String[] args) {
