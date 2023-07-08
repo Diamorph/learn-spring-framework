@@ -1,9 +1,9 @@
 package com.diamorph.learnspringframework.exercises.ex1.dataservice;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Qualifier("mySQLDataServiceQualifier")
 public class MySQLDataService implements DataService{
     @Override

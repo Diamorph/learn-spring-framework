@@ -2,9 +2,9 @@ package com.diamorph.learnspringframework.exercises.ex1.dataservice;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Primary
 @Qualifier("mongoDbDataServiceQualifier")
 public class MongoDbDataService implements DataService {
